@@ -269,6 +269,8 @@ export class WhatsAppDirectService {
     type: 'TEXT' | 'AUDIO';
     description?: string;
     transcription?: string;
+    audioUrl?: string;
+    photoUrl?: string;
     requestDate: string;
   }): string {
     let message = `🆕 NOUVELLE DEMANDE EBF BOUAKÉ 🆕\n\n`;
@@ -349,4 +351,3 @@ export class WhatsAppDirectService {
 
     return instructions;
   }
-}
