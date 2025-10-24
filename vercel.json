@@ -1,24 +1,10 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
   "env": {
     "DATABASE_URL": "file:./db/custom.db",
     "EMAIL_USER": "ebfbouake@gmail.com",
     "EMAIL_PASS": "zvvc yxqg qgsh jvqy",
     "TARGET_EMAIL": "ebfbouake@gmail.com"
-  },
-  "build": {
-    "env": {
-      "DATABASE_URL": "file:./db/custom.db",
-      "EMAIL_USER": "ebfbouake@gmail.com",
-      "EMAIL_PASS": "zvvc yxqg qgsh jvqy",
-      "TARGET_EMAIL": "ebfbouake@gmail.com"
-    }
   },
   "routes": [
     {
